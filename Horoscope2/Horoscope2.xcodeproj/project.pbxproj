@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		095C7EDF1B99276100928951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C7EDE1B99276100928951 /* AppDelegate.swift */; };
+		095C7EE11B99276100928951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C7EE01B99276100928951 /* ViewController.swift */; };
+		095C7EE41B99276100928951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095C7EE21B99276100928951 /* Main.storyboard */; };
+		095C7EE61B99276100928951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095C7EE51B99276100928951 /* Assets.xcassets */; };
+		095C7EE91B99276100928951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095C7EE71B99276100928951 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		095C7EDB1B99276100928951 /* Horoscope2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horoscope2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		095C7EDE1B99276100928951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		095C7EE01B99276100928951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		095C7EE31B99276100928951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		095C7EE51B99276100928951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		095C7EE81B99276100928951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		095C7EEA1B99276100928951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		095C7ED81B99276100928951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095C7ED21B99276100928951 = {
+			isa = PBXGroup;
+			children = (
+				095C7EDD1B99276100928951 /* Horoscope2 */,
+				095C7EDC1B99276100928951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		095C7EDC1B99276100928951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				095C7EDB1B99276100928951 /* Horoscope2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		095C7EDD1B99276100928951 /* Horoscope2 */ = {
+			isa = PBXGroup;
+			children = (
+				095C7EDE1B99276100928951 /* AppDelegate.swift */,
+				095C7EE01B99276100928951 /* ViewController.swift */,
+				095C7EE21B99276100928951 /* Main.storyboard */,
+				095C7EE51B99276100928951 /* Assets.xcassets */,
+				095C7EE71B99276100928951 /* LaunchScreen.storyboard */,
+				095C7EEA1B99276100928951 /* Info.plist */,
+			);
+			path = Horoscope2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		095C7EDA1B99276100928951 /* Horoscope2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095C7EED1B99276100928951 /* Build configuration list for PBXNativeTarget "Horoscope2" */;
+			buildPhases = (
+				095C7ED71B99276100928951 /* Sources */,
+				095C7ED81B99276100928951 /* Frameworks */,
+				095C7ED91B99276100928951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horoscope2;
+			productName = Horoscope2;
+			productReference = 095C7EDB1B99276100928951 /* Horoscope2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		095C7ED31B99276100928951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Madeleine Monfort";
+				TargetAttributes = {
+					095C7EDA1B99276100928951 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 095C7ED61B99276100928951 /* Build configuration list for PBXProject "Horoscope2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 095C7ED21B99276100928951;
+			productRefGroup = 095C7EDC1B99276100928951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				095C7EDA1B99276100928951 /* Horoscope2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		095C7ED91B99276100928951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095C7EE91B99276100928951 /* LaunchScreen.storyboard in Resources */,
+				095C7EE61B99276100928951 /* Assets.xcassets in Resources */,
+				095C7EE41B99276100928951 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		095C7ED71B99276100928951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095C7EE11B99276100928951 /* ViewController.swift in Sources */,
+				095C7EDF1B99276100928951 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		095C7EE21B99276100928951 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				095C7EE31B99276100928951 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		095C7EE71B99276100928951 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				095C7EE81B99276100928951 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		095C7EEB1B99276100928951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		095C7EEC1B99276100928951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		095C7EEE1B99276100928951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Horoscope2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maddie.Horoscope2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		095C7EEF1B99276100928951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Horoscope2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maddie.Horoscope2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095C7ED61B99276100928951 /* Build configuration list for PBXProject "Horoscope2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095C7EEB1B99276100928951 /* Debug */,
+				095C7EEC1B99276100928951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		095C7EED1B99276100928951 /* Build configuration list for PBXNativeTarget "Horoscope2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095C7EEE1B99276100928951 /* Debug */,
+				095C7EEF1B99276100928951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 095C7ED31B99276100928951 /* Project object */;
+}
